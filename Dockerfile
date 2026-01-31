@@ -5,4 +5,5 @@ EXPOSE 8080
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY target/Royal\ Oak.war /usr/local/tomcat/webapps/RoyalOak.war
+COPY target/royal-oak.war /usr/local/tomcat/webapps/royal-oak.war
+
